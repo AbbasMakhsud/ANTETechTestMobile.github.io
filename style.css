@@ -1,0 +1,499 @@
+/*General css*/ 
+
+*{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+	height: 7vh;
+}
+
+
+img{
+	width: 100%
+}
+/*Navbar starts here*/
+
+
+#navbarRight li{
+float: right;
+}
+
+nav a {
+	color: #FFFFFF !important;
+
+}
+
+#rowNav{
+	background: #1a68a5;
+	overflow: hidden;
+}
+
+/*navbar ends here*/
+
+/*main body starts here*/
+
+.mainBody{
+	width: 100%;
+	background-image: url(./assets/bg.svg);
+	background-repeat: no-repeat center center fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.bodyDiv{
+	margin-top: 40px;
+	color:white;
+}
+
+.bodyMainTopContents{
+	margin-top: 30px;
+}
+
+.bodyMainBottomContents{
+	margin-top: 85px;
+}
+
+.bodyMainTopContents img, .bodyMainBottomContents img{
+	margin-bottom: 40px;
+}
+
+#visitNreview{
+	margin-top: 40px;
+}
+
+#FanDuel, #DraftHero, #MobileDevelopment, #StarDraft {
+	width: 25%;
+	display: inline-block;
+	text-align: center;
+	color: white;
+}
+
+.mainBody button {
+	width: 85px;
+	height: 35px;
+	color: #01579b;
+	text-align: center;
+}
+
+.mainBody a{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#bgEnd{
+	background-image: url(./assets/bgEnd.png);
+}
+/*first page ends here*/
+
+/*seond page starts here*/
+
+#secondPage{
+	margin-top: 125px;
+
+}
+
+#topOfSecondPage{
+	text-align: center;
+	color: #01579b;
+	margin-bottom: 150px;
+
+}
+
+.candy{
+	
+	box-shadow: 1px 9px 32px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 1px 9px 32px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 9px 32px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 9px 32px 0px rgba(0,0,0,0.75);
+margin-bottom: 40px;
+margin-top: 40px;
+}
+
+#bottomSectionSeondPage{
+	text-align: center;
+}
+
+#bottomSectionSeondPage h3{
+color: #01579b; 
+margin-bottom: 80px;
+}
+
+.freeBonus{
+	position: relative;
+	top: -140px;
+	text-align: left !important;
+}
+
+.bottomLeftStyle{
+	text-align: left;
+	float: left;
+}
+
+.sports{
+	margin-bottom: 80px;
+}
+
+.bottomHeaders{
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #cc3467;
+}
+
+.bottomParags{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+hr{
+	width: 78% !important;
+}
+/*end of second page*/
+
+/*footer starts here*/
+
+.footer{
+	height: 10vh;
+}
+
+.footer a{
+	margin-left: 30px;
+	font-family: sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #cc3467;
+}
+
+#copyright {
+	margin-left: 24px;
+    font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #999999;
+}
+
+.termsNcontact span:first-child{
+	margin-right: 30px;
+font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #999999;
+}
+
+.termsNcontact span:last-child{
+font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #999999;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+	#navbarRight a{
+		font-size: 13px;
+	}
+
+	.bottomHeader{
+		font-size: 33px;
+		
+	}
+
+	.bottomParags{
+		font-size: 14px;
+
+	}
+}
+
+@media only screen and (max-width: 992px){
+	
+}
+
+@media screen and (max-width: 768px){
+	#firstPageFull{
+		display: none;
+	}
+}
+
+
+/*@media only screen and (min-width: 768px) {
+	.mainBody{
+		height: 179.4vh;
+		background-size: cover
+	}
+*/}
+
+/*#test{
+	display: none;
+}
+@media screen and (min-width: 1920px){
+	#test{
+	display: block;
+}
+}*/
+
+
+
+/*mobile version*/
+
+#mainSecondPage{
+	background: #01579b !important;
+}
+
+#secondOne{
+	margin-top: 80px;
+}
+
+#mobileHeader{
+	background-color: #1a68a5;
+	margin-bottom: 40px;
+}
+
+#mobileHeader a{
+font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+
+#mobileHeader i{
+	color: white;
+	margin-right: 15px;
+    margin-top: 7px;
+    
+}
+
+#header h6{
+font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+#header p{
+	font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.bodyContents{
+	    margin-top: 3vh;
+    margin-bottom: 10vh;
+}
+
+.bodyContents img{
+	width: 35%
+}
+
+.bodyContents h6{
+	font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 3vh;
+}
+
+.bodyContents p{
+	font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.bodyContents button{
+	width: 75px;
+  height: 25px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+	 font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #01579b;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.bodyContents a{
+	 font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#topSection header{
+	font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #01579b;
+  margin-bottom: 20px;
+
+}
+
+#topSection p{
+	 font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #01579b;
+  text-align: center;
+}
+#topSection ul{
+	position: relative;
+	top: -8px;
+}
+
+#topSection ul li{
+	margin-bottom: 10px;
+	width: 8px;
+	height: 8px;
+	border: 1px solid #01579b;
+	border-radius: 100%;
+	align-items: center;
+}
+
+#bottomSection header{
+	font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #01579b;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#bottomSection h6{
+font-size: 19px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #cc3467;
+  }
+
+  #bottomSection p{
+  	font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  }
+
+#hr{
+
+	width: 100% !important;
+}
+
+
+#mobileLogo{
+	font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #cc3467;
+}
+
+#mobileCopy{
+	font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #999999;
+}
+
+#mobileTerms{
+	font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: 0.1px;
+  color: #999999;
+}
+
+#mobileContact{
+	font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.64;
+  letter-spacing: 0.1px;
+  color: #999999;
+}
